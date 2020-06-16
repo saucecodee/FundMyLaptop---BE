@@ -1,0 +1,22 @@
+{
+  "name": "express-launch-box",
+  "version": "1.0.0",
+  "description": "A boilerplate for creating an Express server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node -r dotenv/config server.js",
+    "dev": "nodemon -r dotenv/config server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-async-errors": "^3.1.1",
+    "mongoose": "^5.7.0",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
+}
