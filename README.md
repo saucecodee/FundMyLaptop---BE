@@ -1,14 +1,14 @@
-# Express-launch-box
+# FundMyLaptop
 
-A boilerplate for creating an Express server
+A website where people can raise money for their laptop purchase or fix
 
 ## Installing
 
-Run `npm install` to install all the packages required. for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Run `npm install` to install all the packages required to start the server.
 
 ## Running the server
 
-Run `npm start` or `nodemon server` to start the server, with the defaault configuration it should be running on `http://localhost:2020/`.
+Run `npm start` or `npm run server` (uses nodemon) to start the server, with the defaault configuration it should be running on `http://localhost:2020/`.
 
 
 ### Packages
